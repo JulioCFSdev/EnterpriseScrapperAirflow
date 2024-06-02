@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ex: <http://example.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+ex:Petrobras a foaf:Document ;
+    dc:title "Petrobras" ;
+    foaf:topic <https://br.linkedin.com/company/petrobras>,
+        <https://petrobras.com.br/>,
+        <https://pt.wikipedia.org/wiki/Petrobras>,
+        <https://www.instagram.com/petrobras/>,
+        <https://www.investidorpetrobras.com.br/> .
+
+<https://br.linkedin.com/company/petrobras> a foaf:Document ;
+    dc:description "Nosso propósito é prover energia que assegure prosperidade de forma ética, justa, segura e competitiva. Queremos ser a melhor empresa diversificada e integrada de energia na geração de valor, construi..." ;
+    dc:identifier <https://br.linkedin.com/company/petrobras> ;
+    dc:title "Petrobras" .
+
+<https://petrobras.com.br/> a foaf:Document ;
+    dc:description "Você está em: SITE PETROBRAS Faça uma busca: Buscar Sugestões de busca Mais pesquisados Preço dos combustíveis Pré-Sal Time Petrobras Title Faça uma busca: Buscar Sugestões de busca Mais pesquisados P..." ;
+    dc:identifier <https://petrobras.com.br/> ;
+    dc:title "Petrobras: O Brasil é a nossa Energia" .
+
+<https://pt.wikipedia.org/wiki/Petrobras> a foaf:Document ;
+    dc:description "Coordenadas: 22°54'33.83\"S 43°10'46.31\"W Petróleo Brasileiro (Petrobras;[1] pronunciado Petrobrás[a]) é uma empresa de capital aberto, cujo acionista majoritário é o Governo do Brasil (União), sendo, ..." ;
+    dc:identifier <https://pt.wikipedia.org/wiki/Petrobras> ;
+    dc:title "Petrobras – Wikipédia, a enciclopédia livre" .
+
+<https://www.instagram.com/petrobras/> a foaf:Document ;
+    dc:description "..." ;
+    dc:identifier <https://www.instagram.com/petrobras/> ;
+    dc:title "Petrobras (@petrobras) • Instagram photos and videos" .
+
+<https://www.investidorpetrobras.com.br/> a foaf:Document ;
+    dc:description "A Petrobras é uma empresa brasileira e uma das maiores produtoras de petróleo e gás do mundo, dedicada principalmente à exploração e produção, refino, geração de energia e comercialização. A Petrobras..." ;
+    dc:identifier <https://www.investidorpetrobras.com.br/> ;
+    dc:title "Petrobras | Relações com Investidores" .
+
